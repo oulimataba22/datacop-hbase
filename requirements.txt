@@ -1,0 +1,6 @@
+pandas>=2.0
+numpy>=1.24
+fastapi>=0.110
+uvicorn>=0.29
+streamlit>=1.67.0
+requests>=2.31

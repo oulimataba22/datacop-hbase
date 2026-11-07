@@ -1,0 +1,10 @@
+services:
+  hbase:
+    image: harisekhon/hbase
+    container_name: hbase
+    hostname: hbase
+    ports:
+      - "16010:16010"   # interface web du Master HBase
+      - "8080:8080"     # API REST HBase (utilisée par les scripts et l'API)
+      - "2181:2181"     # ZooKeeper
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+__pycache__/
+.venv/
+data/*.csv
+data/*.tsv
+data/access.log*
+!data/.gitkeep
